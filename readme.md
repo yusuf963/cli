@@ -29,3 +29,11 @@ $ cli --help
     $ cli --name=Jane
     Hello, Jane
 ```
+
+
+
+### Install packages 
+1. We'll also install ink-gradient for beautifying our header. It is another "useful component" Ink provides.
+`npm install ink-big-text ink-gradient`
+
+2. `npm install axios`
