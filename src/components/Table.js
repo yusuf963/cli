@@ -15,9 +15,15 @@ const Table = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const request = await axios.get(URL)
-      const response = await request.data
-      setData(response)
+      try {
+        const request = await axios.get(URL)
+        const response = await request.data
+        setData(response)
+
+      } catch (error) {
+        console.log({ error: error })
+      }
+
       // .then(response => setData(response.data))
       // .catch(e => console.log(e))
       // setData(cryptoData);
