@@ -1,9 +1,7 @@
-// Table.js
-
 const React = require('react');
 
-const { useState, useEffect } = React;
 // Destructuring useState and useEffect from React
+const { useState, useEffect } = React;
 
 const { Box, Text, Newline } = require('ink');
 // Destructuring the components we need from ink
